@@ -1,0 +1,848 @@
+*{
+    text-decoration: none;
+}
+
+
+
+body {
+    background-color: #f3f3f3;
+  }
+  header {
+    background-color: #fff;
+    width: 100%;
+   height: 100px;
+  }
+  
+  header .header-brand{
+    font-family: catamaran;
+ font-size: 24px;
+    font-weight: 900;
+    color: #111;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header nav ul {
+    display:inline-block;
+    margin:20 auto;
+    width: fit-content; 
+    list-style: none;
+    text-align: justify;
+  }
+  
+  
+  header nav ul li {
+    display: inline-flex;
+    float: left;
+    list-style: none;
+    text-align: center;
+    padding: 20px 20px;
+  }
+  
+  header nav ul li a {
+    font-family: catamaran;
+   font-size: 16px;
+    color: #111;
+    text-transform: uppercase;
+  }
+
+  @media screen and (min-width:100px) {
+     
+    header .header-brand {
+        margin: 31px 0 ;
+        text-align: left;
+        line-height: 38px;
+        padding: 0 20px 0 40px;
+        border-right: 3px solid #111;
+        float: left; 
+      }
+   
+      
+  }
+   
+  
+     
+  
+  
+  /*INDEX*/
+  
+  .index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url ("/images/mass.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    display: table;
+  }
+  
+  .vertical-center{
+    position: absolute; top: 470px; left: 480px;
+    display:block;
+    font-size: 100px; 
+    width: 100px;
+    font-family: Helvetica ; 
+    line-height: 20px;
+  }
+  
+  .index-banner h2{
+    font-family: catamaran;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 70px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+  }
+  
+  .index-banner h1{
+    font-family: Comorant Garamond;
+    font-size: 28px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+  }
+  
+   
+  
+  .index-links div h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  @media only screen and (min-width: 1000px){
+    .wrapper{
+      width: 1000px;
+      margin: 0 auto;
+    }
+    .index-banner{
+      width: 100%;
+      height: 700px;
+  }
+    .index-banner h1{
+      display: block;
+      width: 560px;
+      margin: 0 auto;
+    }
+  
+ 
+    .index-links div{
+      margin: 16px 16px 0;
+      height: 100%; 
+      
+    width: calc(100% - 32px);
+      background-color:aliceblue;
+      float: left;
+    }
+   
+  /*footer*/
+  
+  footer{
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #111;
+    overflow: hidden;
+  }
+  
+  footer ul{
+    margin: 20px 0px 0px 20px;
+    float: left;
+  }
+  
+  footer ul li{
+    display: block;
+    list-style: none;
+  }
+  
+  footer ul li a{
+    font-family: catamaran;
+    font-size: 24px;
+    color: #fff;
+    line-height: 60px;
+  }
+  
+  .footer-links-home{
+    display: none;
+  }
+  
+  .footer-sm{
+    width: 50px;
+    float: right;
+  }
+  
+  .footer-sm img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  @media only screen and (min-width: 1000px){
+    .footer-link-home{
+      display: block;
+  }
+  
+  footer ul{
+    width: fit-content;
+    float: left;
+
+  
+  }
+  
+  footer ul li p  {font-family: Arial, Helvetica, sans-serif; 
+ 
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+    text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.projectpic
+{
+
+margin: 150px auto ;
+width:50% ; 
+padding: 10px;
+}
+
+.words{
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.copyright{
+  font-size: 22px;
+  text-align: center;
+
+
+
+}
+
+.date{
+  position: absolute; top: 100px; left:70px;
+  display:block;
+  font: size 700px; 
+  width: 1000px;
+  font-family: Helvetica ; 
+}
+
+.nametag{
+  position: absolute; top: 100px; left: 500px;
+  display:block;
+  font-size : 35px; 
+  font-family: Helvetica ; 
+}
+ 
+.pics
+{
+  position: absolute; top: 300px;
+} 
+
+.exp 
+{
+  position: absolute; top: 370px; left:750px;
+  display:block;
+  font-size: 300px; 
+  width: 550px;
+  float: right;
+  line-height: 30px;
+} 
+
+.pics2{
+  position: absolute; top: 900px; 
+}
+
+.exp2
+{
+  position: absolute; top: 1100px; left: 750px;
+  display: inline-block;
+  font-size: 30px;
+  width: 500px;
+  line-height: 30px;
+} 
+
+.pics3{
+  position: absolute; top: 1480px; 
+}
+
+.exp3{
+  position: absolute; top: 1650px; left:750px;
+  display:block;
+  font: size 300px; 
+  width: 550px;
+  float: right;
+  line-height: 30px;
+}
+
+.pics4{
+   position: absolute; top: 2050px; 
+}
+
+.exp4{
+  position: absolute; top: 2280px; left:750px;
+  display:block;
+  font: size 300px; 
+  width: 550px;
+  float: right; 
+  line-height: 30px;
+}
+
+
+.individual{
+  position: absolute; top: 250px; left: 700px;
+}
+
+
+.intro{
+  position: absolute; top: 240px; left: 110px;
+  display:block;
+  font: size 1000px; 
+  width: 1000px;
+  font-family: Helvetica ; 
+  line-height: 25px;
+}
+
+.lol{
+  position: absolute; top: 340px; left:70px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.basketball{
+  position: absolute; top: 1100px; left: 700px;
+}
+
+.basketball2{
+  position: absolute; top: 1100px; left: 1100px;
+}
+
+.hobbies{
+  position: absolute; top: 670px; left: 110px;
+  display: inline-block;
+  font: size 1000px; 
+  width: 1000px;
+  font-family: Helvetica ; 
+  line-height: 20px;
+}
+
+.lol2{
+  position: absolute; top: 780px; left:70px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.reasoninEA{
+  position: absolute; top: 1200px; left:70px;
+  display: inline-block;
+  font: size 1000px; 
+  width: 1000px;
+  font-family: Helvetica ; 
+  line-height: 20px;
+}
+
+.lol3{
+  position: absolute; top: 1320px; left:70px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.date1{
+  position: absolute; top: 100px; left:70px;
+  display:block;
+  font: size 700px; 
+  width: 1000px;
+  font-family: Helvetica ; 
+}
+
+.shirt{
+  position: absolute; top: 100px; left:70px;
+  display:block;
+  font: size 500px; 
+  width: 1000px;
+  font-family: Helvetica ; 
+}
+
+.docum{
+  position: absolute; top: 200px; left:70px;
+  font: size 700px; 
+  width: 550px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.frontpic{
+  position: absolute; top: 450px; left: 50px;
+}
+
+.front{
+  position: absolute; top: 500px; left: 800px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.backpic{
+  position: absolute; top: 1350px; left: 50px;
+}
+
+.back{
+  position: absolute; top: 1550px; left: 800px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.fspin{
+  position: absolute; top: 100px; left: 500px;
+  display:block;
+  font-size : 35px; 
+  font-family: Helvetica ; 
+}
+.spinner1{
+  position: absolute; top: 350px; left: 75px;
+}
+
+.spin1{
+  position: absolute; top: 400px; left : 850px;
+  font-size: 30px; 
+  width: 500px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.spinner2{
+  position: absolute; top: 950px;  left: 75px;
+}
+
+.spin2{
+  position: absolute; top: 1050px; left : 850px;
+  font-size: 30px; 
+  width: 500px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.spinner3{
+  position: absolute; top: 1550px;  left: 75px;
+}
+
+.spin3{
+  position: absolute; top: 1670px; left : 850px;
+  font-size: 30px; 
+  width: 500px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.spinner4{
+  position: absolute; top: 2150px;  left: 75px;
+}
+
+.spin4{
+  position: absolute; top: 2270px; left : 850px;
+  font-size: 30px; 
+  width: 500px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.spinner5{
+  position: absolute; top: 2750px;  left: 75px;
+}
+
+.spin5{
+  position: absolute; top: 2850px; left : 850px;
+  font-size: 30px; 
+  width: 500px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.spinner6{
+  position: absolute; top: 3350px;  left: 75px;
+}
+
+.spin6{
+  position: absolute; top: 3450px; left : 850px;
+  font-size: 30px; 
+  width: 500px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.expp3{
+  position: absolute; top: 100px; left: 500px;
+  display:block;
+  font-size : 35px; 
+  font-family: Helvetica ; 
+}
+
+.exerpic1{
+  position: absolute; top: 350px; left: 75px;
+}
+
+.Ex3words1{
+  position: absolute; top: 500px; left : 850px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.exerpic2{
+  position: absolute; top: 950px; left: 75px;
+}
+
+.Ex3words2{
+  position: absolute; top: 1100px; left : 850px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.exerpic3{
+  position: absolute; top: 1550px; left: 75px;
+}
+
+.Ex3words3{
+  position: absolute; top: 1650px; left : 850px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.exerpic4{
+  position: absolute; top: 2150px; left: 75px;
+}
+
+.Ex3words4{
+  position: absolute; top: 2300px; left : 700px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.exerpic5{
+  position: absolute; top: 2750px; left: 75px;
+}
+
+.Ex3words5{
+  position: absolute; top: 2900px; left : 850px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 30px;
+  display: inline-block;
+}
+  
+.exerpic6{
+  position: absolute; top: 3350px; left: 75px;
+}
+
+.Ex3words6{
+  position: absolute; top: 3500px; left : 850px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.chesspiecess{
+  position: absolute; top: 100px; left: 500px;
+  display:block;
+  font-size : 35px; 
+  font-family: Helvetica ; 
+}
+  
+.chesspic{
+  position: absolute; top: 350px; left: 75px;
+}
+
+.chesspic2{
+  position: absolute; top: 950px;  left: 75px;
+}
+
+.expp5{
+  position: absolute; top: 100px; left: 500px;
+  display:block;
+  font-size : 35px; 
+  font-family: Helvetica ; 
+}
+
+.ex5pic1{
+  position: absolute; top: 350px; left: 75px;
+}
+
+.Ex5words1{
+  position: absolute; top: 450px; left : 850px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.ex5pic2{
+  position: absolute; top: 950px; left: 75px;
+}
+
+.Ex5words2{
+  position: absolute; top: 1050px; left : 850px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.ex5pic3{
+  position: absolute; top: 1550px; left: 75px;
+}
+
+.Ex5words3{
+  position: absolute; top: 1650px; left : 850px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.ex5pic4{
+  position: absolute; top: 2150px; left: 75px;
+}
+
+.Ex5words4{
+  position: absolute; top: 2250px; left : 850px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.ex5pic5{
+  position: absolute; top: 2750px; left: 75px;
+}
+
+.Ex5words5{
+  position: absolute; top: 2850px; left : 850px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.ex5pic6{
+  position: absolute; top: 3350px; left: 75px;
+}
+
+.Ex5words6{
+  position: absolute; top: 3450px; left : 850px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.ex5pic7{
+  position: absolute; top: 3950px; left: 75px;
+}
+
+.Ex5words7{
+  position: absolute; top: 4050px; left : 850px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.ex5pic8{
+  position: absolute; top: 4550px; left: 75px;
+}
+
+.Ex5words8{
+  position: absolute; top: 4650px; left : 850px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.ex5pic9{
+  position: absolute; top: 5150px; left: 75px;
+}
+
+.Ex5words9{
+  position: absolute; top: 5300px; left : 850px;
+  font: size 300px; 
+  width: 550px;
+  line-height: 20px;
+  display: inline-block;
+}
+
+body
+{
+  background-color: rgb(174, 255, 185);
+}
+
+
+h4{
+  font-weight: lighter;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+p{
+  color: #fff;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-top: 0;
+}
+.media{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-53%, -50%);
+}
+
+li{
+  list-style: none;
+  margin: 10px 30px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition: .5s;
+  text-align: center;
+}
+
+
+.footer {
+  background-color: var(--second-color);
+  color: #fff;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 2rem 0;
+}
+.footer__title {
+  font-size: 2rem;
+  margin-bottom: var(--mb-4);
+}
+.footer__social {
+  margin-bottom: var(--mb-4);
+}
+.footer__icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 var(--mb-2);
+}
+
+
+
+
+
+
+.footer11{
+  display: flex;
+  height: 30vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #d15858;
+}
+
+ul{
+  display: flex;
+}
+
+ul li:before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  /*background: #d35400;*/
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0.9);
+  transition: .5s;
+}
+ul li:nth-child(1):before{
+  background: #4267B2;
+}
+ul li:nth-child(2):before{
+  background: #1DA1F2;
+}
+ul li:nth-child(3):before{
+  background: #E1306C;
+}
+
+ul li:hover:before{
+  filter: blur(3px);
+  transform: scale(1.2);
+  /*box-shadow: 0 0 15px #d35400;*/
+}
+ul li:nth-child(1):hover:before{
+  box-shadow: 0 0 15px #4267B2;
+}
+ul li:nth-child(2):hover:before{
+  box-shadow: 0 0 15px #1DA1F2;
+}
+ul li:nth-child(3):hover:before{
+  box-shadow: 0 0 15px #E1306C;
+}
+
+ul li:nth-child(1):hover{
+  color: #456cba;
+  box-shadow: 0 0 15px #4267B2;
+  text-shadow: 0 0 15px #4267B2;
+}
+ul li:nth-child(2):hover{
+  color: #26a4f2;
+  box-shadow: 0 0 15px #1DA1F2;
+  text-shadow: 0 0 15px #1DA1F2;
+}
+ul li:nth-child(3):hover{
+  color: #e23670;
+  box-shadow: 0 0 15px #E1306C;
+  text-shadow: 0 0 15px #E1306C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
